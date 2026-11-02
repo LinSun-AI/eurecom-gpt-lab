@@ -1,0 +1,30 @@
+{
+  "phase": "2",
+  "environment": {
+    "colab": true
+  },
+  "attention": {
+    "naive_ms": 240.783,
+    "vectorized_ms": 0.951,
+    "speedup": 253.19
+  },
+  "threads": {
+    "1": 2360.311,
+    "2": 2257.346,
+    "4": 2269.802,
+    "8": 2208.607
+  },
+  "devices": {
+    "cpu_ms": 429414.8,
+    "gpu_ms": 12654.0
+  },
+  "training": {
+    "steps": 2000,
+    "final_loss": 1.4865,
+    "param_count": 4935680
+  },
+  "sample": "\nIf I make your me, you know you so? I do:\nGod you much so; Romeony, take God in fell: let no him a guard.\nNo, who trick'd befry to the imrise!\nI am lord through'd\nMight which Atter besand, which very ",
+  "model": {
+    "gcs_url": "https://storage.googleapis.com/project-d0217019-d375-4dec-818-eurecomgpt/model.safetensors"
+  }
+}
